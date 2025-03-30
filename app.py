@@ -7,26 +7,12 @@ from fastapi.responses import HTMLResponse
 import google.generativeai as genai
 from dotenv import load_dotenv
 import uvicorn
-
-# Load environment variables
 load_dotenv()
-
-# Configure Gemini API
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-
-# Initialize FastAPI
 app = FastAPI(title="Financial Assistant API")
-
-# Mount static files
 app.mount("/static", StaticFiles(directory="static"), name="static")
-
-# Set up templates
 templates = Jinja2Templates(directory="templates")
-
-# Load financial product data
 products_df = pd.read_csv("data/investment_products.csv")
-
-# Initialize Gemini model
 model = genai.GenerativeModel('gemini-1.5-pro')
 
 @app.get("/", response_class=HTMLResponse)
