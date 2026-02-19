@@ -1,0 +1,10 @@
+{
+  "repo_path": "D:\\Rift\\backend\\tmp\\workspace\\5b828df6-050a-4bef-8cb3-9dc10894323e",
+  "repo_url": "https://github.com/NotVivek12/financial-assistant",
+  "team_name": "HELLOO",
+  "leader_name": "HI",
+  "branch_name": "HELLOO_HI_AI_Fix",
+  "max_iterations": 50,
+  "sandbox_image": "rift-sandbox:latest",
+  "sandbox_timeout": 120000
+}

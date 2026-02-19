@@ -1,0 +1,69 @@
+{
+  "repository": "D:\\Rift\\backend\\tmp\\workspace\\5b828df6-050a-4bef-8cb3-9dc10894323e",
+  "team_name": "HELLOO",
+  "leader_name": "HI",
+  "branch_name": "HELLOO_HI_AI_Fix",
+  "timestamp": "2026-02-19T22:15:34.345911+00:00",
+  "total_time_seconds": 79.87,
+  "iterations_used": 4,
+  "max_iterations": 50,
+  "all_tests_passed": false,
+  "ci_status": "FAILED",
+  "summary": {
+    "total_failures_detected": 4,
+    "total_fixes_applied": 2,
+    "total_fixes_failed": 0
+  },
+  "score": {
+    "base_score": 100,
+    "speed_bonus": 10,
+    "efficiency_penalty": 0,
+    "final_score": 110
+  },
+  "fixes": [
+    {
+      "file": "app.py",
+      "bug_type": "TYPE_ERROR",
+      "line_number": 47,
+      "commit_message": "[AI-AGENT] Fix type error in get_products function by changing default value of risk_level",
+      "status": "fixed",
+      "description": "TYPE_ERROR error in app.py line 47 -> Fix: change the default value of risk_level to an empty string",
+      "fix_description": "change the default value of risk_level to an empty string"
+    },
+    {
+      "file": "app.py",
+      "bug_type": "TYPE_ERROR",
+      "line_number": 47,
+      "commit_message": "[AI-AGENT] Fix type error in get_products function by changing default value of min_investment",
+      "status": "fixed",
+      "description": "TYPE_ERROR error in app.py line 47 -> Fix: change the default value of min_investment to 0",
+      "fix_description": "change the default value of min_investment to 0"
+    }
+  ],
+  "ci_timeline": [
+    {
+      "iteration": 1,
+      "status": "FAILED",
+      "timestamp": "2026-02-19T22:15:34.345911+00:00",
+      "errors_remaining": 1
+    },
+    {
+      "iteration": 2,
+      "status": "FAILED",
+      "timestamp": "2026-02-19T22:15:34.345911+00:00",
+      "errors_remaining": 1
+    },
+    {
+      "iteration": 3,
+      "status": "FAILED",
+      "timestamp": "2026-02-19T22:15:34.345911+00:00",
+      "errors_remaining": 4
+    },
+    {
+      "iteration": 4,
+      "status": "FAILED",
+      "timestamp": "2026-02-19T22:15:34.345911+00:00",
+      "errors_remaining": 4
+    }
+  ]
+}

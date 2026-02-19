@@ -1,0 +1,34 @@
+[
+  {
+    "type": "LINTING",
+    "file": "/workspace/app.py",
+    "line": 47,
+    "message": "SyntaxError: Expected class, function definition or async function definition after decorator",
+    "source": "ruff",
+    "code": null
+  },
+  {
+    "type": "LINTING",
+    "file": "/workspace/app.py",
+    "line": 48,
+    "message": "SyntaxError: Unexpected indentation",
+    "source": "ruff",
+    "code": null
+  },
+  {
+    "type": "LINTING",
+    "file": "/workspace/app.py",
+    "line": 58,
+    "message": "SyntaxError: Expected a statement",
+    "source": "ruff",
+    "code": null
+  },
+  {
+    "type": "TYPE_ERROR",
+    "file": "app.py",
+    "line": 47,
+    "message": "invalid syntax",
+    "source": "mypy",
+    "code": ""
+  }
+]

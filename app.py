@@ -44,7 +44,7 @@ async def ask_question(question: str = Form(...)):
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/products")
-async def get_products(risk_level: str = None, min_investment: int = None):
+min_investment: int | None = 0
     filtered_df = products_df
     
     if risk_level:
