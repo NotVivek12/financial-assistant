@@ -1,0 +1,10 @@
+{
+  "repo_path": "C:\\Users\\Naresh Suthar\\vscode projects\\Rift\\backend\\tmp\\workspace\\2d46e7cb-7342-4089-88f5-b458a9fc240d",
+  "repo_url": "https://github.com/NotVivek12/financial-assistant",
+  "team_name": "vivek-test",
+  "leader_name": "vivek-test",
+  "branch_name": "VIVEKTEST_VIVEKTEST_AI_Fix",
+  "max_iterations": 50,
+  "sandbox_image": "rift-sandbox:latest",
+  "sandbox_timeout": 120000
+}

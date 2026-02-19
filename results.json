@@ -1,0 +1,38 @@
+{
+  "repository": "C:\\Users\\Naresh Suthar\\vscode projects\\Rift\\backend\\tmp\\workspace\\2d46e7cb-7342-4089-88f5-b458a9fc240d",
+  "team_name": "vivek-test",
+  "leader_name": "vivek-test",
+  "branch_name": "VIVEKTEST_VIVEKTEST_AI_Fix",
+  "timestamp": "2026-02-19T19:01:14.833235+00:00",
+  "total_time_seconds": 27.8,
+  "iterations_used": 2,
+  "max_iterations": 50,
+  "all_tests_passed": false,
+  "ci_status": "FAILED",
+  "summary": {
+    "total_failures_detected": 1,
+    "total_fixes_applied": 0,
+    "total_fixes_failed": 0
+  },
+  "score": {
+    "base_score": 100,
+    "speed_bonus": 10,
+    "efficiency_penalty": 0,
+    "final_score": 110
+  },
+  "fixes": [],
+  "ci_timeline": [
+    {
+      "iteration": 1,
+      "status": "FAILED",
+      "timestamp": "2026-02-19T19:01:14.833235+00:00",
+      "errors_remaining": null
+    },
+    {
+      "iteration": 2,
+      "status": "FAILED",
+      "timestamp": "2026-02-19T19:01:14.834245+00:00",
+      "errors_remaining": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "TYPE_ERROR",
+    "file": "app.py",
+    "line": 47,
+    "message": "Incompatible default for argument \"risk_level\" (default has type \"None\", argument has type \"str\")",
+    "source": "mypy",
+    "code": ""
+  }
+]
