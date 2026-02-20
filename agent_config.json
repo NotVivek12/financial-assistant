@@ -1,0 +1,10 @@
+{
+  "repo_path": "/app/backend/tmp/workspace/a3f4d259-7b68-453d-9067-03e9b3a55d62",
+  "repo_url": "https://github.com/NotVivek12/financial-assistant",
+  "team_name": "Error 404",
+  "leader_name": "Vivek ",
+  "branch_name": "ERROR_404_VIVEK_AI_Fix",
+  "max_iterations": 10,
+  "sandbox_image": "rift-sandbox:latest",
+  "sandbox_timeout": 120000
+}
